@@ -5,7 +5,7 @@ As the first project of the class, project 1 simply required students to work wi
 This project really just served as a refresher on previous classes I'd taken in the minor (in terms of using visual studio), as well as an elaboration on the first two labs where I was learning about the command terminal for the first time.
 
 ## Code
-### p1-date.ja
+### p1-date.js
 /*
     CIT 281 Project 1
     Name: Sophia Lynsky
