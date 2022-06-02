@@ -6,35 +6,35 @@ This project really just served as a refresher on previous classes I'd taken in 
 
 ## Code
 ### p1-date.js
-/*
-    CIT 281 Project 1
-    Name: Sophia Lynsky
-*/
+/*<br>
+    CIT 281 Project 1<br>
+    Name: Sophia Lynsky<br>
+*/<br>
 
-//Part 4
-console.log(["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] [new Date().getDay()])
+//Part 4<br>
+console.log(["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] [new Date().getDay()])<br>
 
 ### p1-random.js
-/*
-    CIT 281 Project 1
-    Name: Sophia Lynsky
-*/
+/*<br>
+    CIT 281 Project 1<br>
+    Name: Sophia Lynsky<br>
+*/<br>
 
-//Part 5
+//Part 5<br>
 
-// Returns a random number between min (inclusive) and max (exclusive)
-function getRandomInteger(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
-}
+// Returns a random number between min (inclusive) and max (exclusive)<br>
+function getRandomInteger(min, max) {<br>
+    return Math.floor(Math.random() * (max - min) + min);<br>
+}<br>
 
-let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]<br>
 
-let randomLetter = getRandomInteger(0,26)
-let lettersLength = getRandomInteger(5,26)
-let text = ""
+let randomLetter = getRandomInteger(0,26)<br>
+let lettersLength = getRandomInteger(5,26)<br>
+let text = ""<br>
 
-for (i=0; i<lettersLength; i++) {
-    text += alphabet[randomLetter];
-}
+for (i=0; i<lettersLength; i++) {<br>
+    text += alphabet[randomLetter];<br>
+}<br>
 
 ### [Home Page](https://slynsky.github.io)
